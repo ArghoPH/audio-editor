@@ -52,16 +52,37 @@ const form = reactive({
   lyrics: ""
 });
 
-const defaultFreshMetadata = {
-  title: "Untitled Original Instrumental",
-  artists: "Argho Chakma",
+// const defaultFreshMetadata = {
+//   title: "Untitled Original Instrumental",
+//   artists: "Argho Chakma",
+//   album: "Original Music Collection",
+//   albumArtist: "Argho Chakma",
+//   year: "2026",
+//   genre: "Instrumental; Cinematic",
+//   composer: "Argho Chakma",
+//   publisher: "Argho Chakma Music",
+//   copyright: "© 2026 Argho Chakma. All rights reserved.",
+//   legalUrl: "",
+//   artistUrl: "",
+//   isrc: "",
+//   track: "1",
+//   disc: "1",
+//   bpm: "",
+//   key: "",
+//   comment: "",
+//   lyrics: ""
+// };
+
+const CustomModifiedMetadata = {
+  title: "Amit Oficial Instrumental",
+  artist: "Amit Chakma",
   album: "Original Music Collection",
-  albumArtist: "Argho Chakma",
+  albumartist: "Amit Chakma",
   year: "2026",
   genre: "Instrumental; Cinematic",
-  composer: "Argho Chakma",
-  publisher: "Argho Chakma Music",
-  copyright: "© 2026 Argho Chakma. All rights reserved.",
+  composer: "Amit Chakma",
+  publisher: "Amit Chakma Music",
+  copyright: "© 2026 Amit Chakma. All rights reserved.",
   legalUrl: "",
   artistUrl: "",
   isrc: "",
@@ -71,7 +92,7 @@ const defaultFreshMetadata = {
   key: "",
   comment: "",
   lyrics: ""
-};
+}
 
 function addLog(message) {
   const time = new Date().toLocaleTimeString();
@@ -387,14 +408,14 @@ function keepCurrentCover() {
 }
 
 function applyFreshDefaultMetadata() {
-  Object.keys(defaultFreshMetadata).forEach((key) => {
-    form[key] = defaultFreshMetadata[key];
+  Object.keys(CustomModifiedMetadata).forEach((key) => {
+    form[key] = CustomModifiedMetadata[key];
   });
 
   customTags.value = [
     {
       description: "Owner",
-      value: "Argho Chakma"
+      value: "Amit Chakma"
     },
     {
       description: "FreshMetadata",
