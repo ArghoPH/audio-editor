@@ -35,6 +35,13 @@ const count = ref(0)
           <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
           <button>Count is {{ count }}</button>
         </div>
+
+        <!-- documentation -->
+        <div id="docs">
+          <svg class="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#documentation-icon"></use>
+          </svg>
+        </div>
       </div>
     </div>
   </section>
