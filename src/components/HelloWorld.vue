@@ -36,10 +36,7 @@ const count = ref(0)
           <button>Count is {{ count }}</button>
         </div>
 
-        <!-- documentation -->
-        <div id="docs">
 
-        </div>
 
 
 
