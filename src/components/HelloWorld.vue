@@ -50,10 +50,7 @@ const count = ref(0)
           </svg>
         </div>
 
-        <!-- github -->
-        <div id="github">
 
-        </div>
 
 
 
