@@ -58,9 +58,7 @@ const count = ref(0)
         </div>
 
         <div id="github">
-          <svg class="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#github-icon"></use>
-          </svg>
+
         </div>
 
 
