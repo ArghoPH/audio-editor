@@ -35,8 +35,6 @@ const count = ref(0)
           <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
           <button>Count is {{ count }}</button>
         </div>
-
-
       </div>
     </div>
   </section>
