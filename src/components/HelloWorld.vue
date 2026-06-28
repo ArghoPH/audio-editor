@@ -43,10 +43,7 @@ const count = ref(0)
           </svg>
         </div>
 
-        <!-- social -->
-        <div id="social">
 
-        </div>
 
 
 
