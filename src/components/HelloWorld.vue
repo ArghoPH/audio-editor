@@ -33,7 +33,7 @@ const count = ref(0)
         <div>
           <h1>Get Started with Vite</h1>
           <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
-          <button>Count is {{ count }}</button>
+          <button>Count {{ count }}</button>
         </div>
       </div>
     </div>
